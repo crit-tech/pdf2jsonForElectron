@@ -17,7 +17,7 @@
  */
 
 'use strict';
-var { DOMParser } = require("@xmldom/xmldom");
+// var { DOMParser } = require("@xmldom/xmldom");
 var Metadata = PDFJS.Metadata = (function MetadataClosure() {
   function fixMetadata(meta) {
     return meta.replace(/>\\376\\377([^<]+)/g, function(all, codes) {
