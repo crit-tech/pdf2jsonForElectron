@@ -1,6 +1,6 @@
 {
   "name": "@crit-tech/pdf2json4electron",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "PDF file parser that converts PDF binaries to text based JSON, powered by porting a fork of PDF.JS to Node.js",
   "keywords": [
     "pdf",
@@ -21,10 +21,10 @@
     "email": "modestyz@hotmail.com",
     "url": "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=62372"
   },
-  "homepage": "https://github.com/modesty/pdf2json",
+  "homepage": "https://github.com/crit-tech/pdf2jsonForElectron",
   "repository": {
     "type": "git",
-    "url": "git://github.com/modesty/pdf2json.git"
+    "url": "git://github.com/crit-tech/pdf2jsonForElectron.git"
   },
   "main": "./pdfparser.js",
   "typings": "./pdfparser.d.ts",
@@ -50,9 +50,6 @@
     "npm": ">=8.19.2"
   },
   "type": "module",
-  "bin": {
-    "pdf2json": "./bin/pdf2json.js"
-  },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.8"
   },
@@ -71,8 +68,8 @@
   ],
   "contributors": [],
   "bugs": {
-    "url": "http://github.com/modesty/pdf2json/issues"
+    "url": "http://github.com/crit-tech/pdf2jsonForElectron/issues"
   },
   "license": "Apache-2.0",
-  "readme": "https://github.com/modesty/pdf2json/blob/master/readme.md"
+  "readme": "https://github.com/crit-tech/pdf2jsonForElectron/blob/master/readme.md"
 }
